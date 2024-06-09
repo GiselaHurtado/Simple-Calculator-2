@@ -1,0 +1,22 @@
+{
+  "name": "simple-calculator-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "npx vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiselaHurtado/Simple-Calculator-2.git"
+  },
+  "author": "Gisela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GiselaHurtado/Simple-Calculator-2/issues"
+  },
+  "homepage": "https://github.com/GiselaHurtado/Simple-Calculator-2#readme",
+  "devDependencies": {
+    "vitest": "^1.6.0"
+  }
+}
