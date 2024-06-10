@@ -4,7 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "npx vitest"
+    "test": "npx vitest",
+    "sass": "sass ./src/sass/styles.scss ./public/css/styles.css",
+    "sass-w": "sass --watch ./src/sass/styles.scss ./public/css/styles.css"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   "homepage": "https://github.com/GiselaHurtado/Simple-Calculator-2#readme",
   "devDependencies": {
     "vitest": "^1.6.0"
+  },
+  "dependencies": {
+    "sass": "^1.77.4"
   }
 }
